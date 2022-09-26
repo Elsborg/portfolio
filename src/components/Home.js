@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
 import cv from "../assets/documents/cv.pdf";
 import HeroImage1 from "../assets/cvgradient.png";
 
@@ -7,7 +6,7 @@ import HeroImage1 from "../assets/cvgradient.png";
 const Home = () => {
   return (
     <div
-      name="hjem"
+      name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
@@ -16,7 +15,7 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Jeg hedder Martin og er 23 år gammel boende i Aarhus. Min passion er frontend udvikling og jeg brænder for at udvikle brugervenlige webaplikationer.
+          Jeg hedder Martin og er 23 år gammel med base i Aarhus. Min passion er frontend udvikling og jeg brænder for at udvikle brugervenlige webaplikationer.
           </p>
 
           <div>
