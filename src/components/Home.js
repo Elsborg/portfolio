@@ -20,9 +20,6 @@ const Home = () => {
 
           <div>
             <a
-              to="portfolio"
-              smooth
-              duration={300}
               href= {cv}
               download="cv"
               target="_blank"
